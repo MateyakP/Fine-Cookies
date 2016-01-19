@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: Fred;
+  src: url('../font/FredokaOne-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Cookie;
+  src: url('../font/Cookie-Regular.ttf');
+}
+@font-face {
+  font-family: Overlock;
+  src: url('../font/Overlock-Regular.ttf');
+
+}
+
+header {
+  background-image: url(../img/bgheader.gif);
+  background-position: center;
+  height: 605px;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  padding-left: 15px;
+  font-size: 0.8em;
+}
+.headertop {
+  margin-right: 15em;
+  float: right;
+
+}
+.stop {
+  clear: both;
+}
+
+nav {
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(../img/pat-menu.gif);
+  height: 55px;
+  width: 960px;
+  border-radius: 5px;
+}
+.gauche {
+  padding-top: 0.4em;
+  float: left;
+  margin-bottom: 0;
+  margin-left: -1.5em;
+}
+.droite {
+  padding-top: 0.4em;
+  float: right;
+  margin-bottom: 0;
+  margin-right: 1em;
+}
+nav li {
+  font-family: Fred;
+  color: #29888c;
+  font-size: 0.9em;
+  padding: 0.4em;
+}
+nav img {
+  padding-left: 1em;
+}
+.logo {
+  margin-top: -2.2em;
+  margin-left: 37.2em;
+  position: absolute;
+}
+.ombre {
+  text-align: center;
+}
+.cookietour {
+  margin-top: 1.5em;
+  margin-bottom: -2em;
+  margin-left: 17.3em;
+  float: left;
+  z-index: 2;
+  position: relative;
+}
+.massivpep {
+  float: right;
+  margin-right: 12.5em;
+}
+.massivpep h1 {
+  font-family: Fred;
+  font-weight: normal;
+  font-size: 72px;
+  color: #E84743;
+  margin-bottom: -0.2em;
+}
+.cookiefont {
+  font-size: 53px;
+  color: #EEA914;
+  font-family: Cookie;
+  margin-bottom: -1em;
+}
+.massivpep p {
+  margin-top: -0.6em;
+  font-size: 14px;
+  font-family: Overlock;
+  padding-left: 0.5em;
+  margin-bottom: 2em;
+}
+.bot {
+  margin-top: 1.4em;
+  z-index: 2;
+  position: relative
+}
+.pepite {
+  float: right;
+  margin-top: -10em;
+}
+.gocart {
+  float: right;
+  padding-left: 3em;
+  margin-right: 15.1em;
+}
+.cart {
+  font-family: Fred;
+  font-weight: normal;
+  font-size: 13px;
+  position: absolute;
+  color: white;
+  margin-top: 0.9em;
+  margin-left: -13.7em;
+}
+.planche {
+  text-align: center;
+}
+.planche img {
+  z-index: 1;
+  position: relative;
+  margin-top: -2.7em;
+}
